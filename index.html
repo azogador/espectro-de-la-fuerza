@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>El espectro de la Fuerza</title>
+
+  <meta
+    name="description"
+    content="Una misma fuerza, muchas formas. Una colección de reflexiones sobre cuidado, poder, identidad, aprendizaje, comunicación y transformación."
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+
+<body>
+
+  <!-- ================================================= -->
+  <!-- PORTADA -->
+  <!-- ================================================= -->
+
+  <header class="hero">
+
+    <div class="hero-contenido">
+
+      <p class="hero-etiqueta">
+        SuperMediaForge
+      </p>
+
+      <h1>
+        El espectro de la Fuerza
+      </h1>
+
+      <p class="hero-subtitulo">
+        Una misma fuerza, muchas formas.
+      </p>
+
+      <p class="hero-texto">
+        Distintas formas de mirar, comprender y actuar.
+      </p>
+
+      <a
+        class="hero-boton"
+        href="#coleccion"
+      >
+        Explorar las reflexiones
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================================================= -->
+  <!-- CONTENIDO PRINCIPAL -->
+  <!-- ================================================= -->
+
+  <main>
+
+
+    <!-- =============================================== -->
+    <!-- INTRODUCCIÓN -->
+    <!-- =============================================== -->
+
+    <section class="introduccion">
+
+      <div class="contenedor">
+
+        <h2>
+          Una colección abierta
+        </h2>
+
+        <p>
+          Cada pieza propone una idea diferente.
+          No busca dar respuestas definitivas,
+          sino abrir una posibilidad de reflexión.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =============================================== -->
+    <!-- RULETA DE REFLEXIONES -->
+    <!-- =============================================== -->
+
+    <section
+      id="ruleta"
+      class="ruleta-seccion"
+      aria-labelledby="ruleta-titulo"
+    >
+
+      <div class="contenedor ruleta-contenedor">
+
+        <div class="ruleta-encabezado">
+
+          <p class="seccion-etiqueta">
+            Una pausa al azar
+          </p>
+
+          <h2 id="ruleta-titulo">
+            ¿Qué reflexión te encuentra hoy?
+          </h2>
+
+          <p>
+            Girá la rueda y descubrí una idea para leer con calma.
+            No es una predicción: es una forma lúdica de encontrarte
+            con una reflexión diferente.
+          </p>
+
+        </div>
+
+        <div class="ruleta-experiencia">
+
+          <div class="ruleta-zona" aria-hidden="true">
+            <div class="ruleta-puntero"></div>
+            <div id="ruleta-disco" class="ruleta-disco"></div>
+            <div class="ruleta-centro">
+              <span>La Fuerza</span>
+            </div>
+          </div>
+
+          <div class="ruleta-panel">
+
+            <button
+              id="boton-girar"
+              class="ruleta-boton"
+              type="button"
+            >
+              Dejar actuar a la Fuerza
+            </button>
+
+            <div
+              id="ruleta-resultado"
+              class="ruleta-resultado"
+              aria-live="polite"
+            >
+              <div class="ruleta-estado">
+                <p class="ruleta-resultado-etiqueta">
+                  La rueda está lista
+                </p>
+
+                <h3>
+                  Girá para descubrir una reflexión
+                </h3>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =============================================== -->
+    <!-- GALERÍA -->
+    <!-- =============================================== -->
+
+    <section
+      id="coleccion"
+      class="coleccion"
+    >
+
+      <div class="contenedor">
+
+        <div class="coleccion-encabezado">
+
+          <p class="seccion-etiqueta">
+            El espectro
+          </p>
+
+          <h2>
+            Todas las reflexiones
+          </h2>
+
+          <p>
+            Elegí una imagen y seguí su reflexión completa en YouTube.
+          </p>
+
+        </div>
+
+
+        <!--
+          IMPORTANTE:
+
+          JavaScript insertará automáticamente aquí
+          las 13 tarjetas.
+
+          No agregamos tarjetas manualmente en HTML.
+        -->
+
+        <div id="grid-reflexiones"></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =============================================== -->
+    <!-- CIERRE -->
+    <!-- =============================================== -->
+
+    <section class="cierre">
+
+      <div class="contenedor">
+
+        <p class="cierre-frase">
+          Una misma fuerza.<br>
+          Muchas formas.
+        </p>
+
+        <p class="cierre-texto">
+          El espectro continúa creciendo.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================================================= -->
+  <!-- PIE DE PÁGINA -->
+  <!-- ================================================= -->
+
+  <footer>
+
+    <div class="contenedor">
+
+      <p>
+        El espectro de la Fuerza · SuperMediaForge
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================================================= -->
+  <!-- JAVASCRIPT -->
+  <!-- ================================================= -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

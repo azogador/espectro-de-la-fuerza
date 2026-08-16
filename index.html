@@ -11,15 +11,85 @@
 
   <title>El espectro de la Fuerza</title>
 
+  <!-- ================================================= -->
+  <!-- DESCRIPCIÓN GENERAL -->
+  <!-- ================================================= -->
+
   <meta
     name="description"
     content="Una misma fuerza, muchas formas. Una colección de reflexiones sobre cuidado, poder, identidad, aprendizaje, comunicación y transformación."
   >
 
+
+  <!-- ================================================= -->
+  <!-- OPEN GRAPH - WHATSAPP / FACEBOOK / REDES -->
+  <!-- ================================================= -->
+
+  <meta
+    property="og:title"
+    content="El espectro de la Fuerza"
+  >
+
+  <meta
+    property="og:description"
+    content="Una misma fuerza, muchas formas."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:url"
+    content="https://TU-SITIO.netlify.app/"
+  >
+
+  <meta
+    property="og:image"
+    content="https://ik.imagekit.io/supermediaforge/espectro-de-la-fuerza/espectro.png"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="El espectro de la Fuerza — Una misma fuerza, muchas formas."
+  >
+
+
+  <!-- ================================================= -->
+  <!-- TWITTER / X -->
+  <!-- ================================================= -->
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="El espectro de la Fuerza"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Una misma fuerza, muchas formas."
+  >
+
+  <meta
+    name="twitter:image"
+    content="https://ik.imagekit.io/supermediaforge/espectro-de-la-fuerza/espectro.png"
+  >
+
+
+  <!-- ================================================= -->
+  <!-- CSS -->
+  <!-- ================================================= -->
+
   <link
     rel="stylesheet"
     href="style.css"
   >
+
 </head>
 
 
@@ -124,12 +194,20 @@
         <div class="ruleta-experiencia">
 
           <div class="ruleta-zona" aria-hidden="true">
+
             <div class="ruleta-puntero"></div>
-            <div id="ruleta-disco" class="ruleta-disco"></div>
+
+            <div
+              id="ruleta-disco"
+              class="ruleta-disco"
+            ></div>
+
             <div class="ruleta-centro">
               <span>La Fuerza</span>
             </div>
+
           </div>
+
 
           <div class="ruleta-panel">
 
@@ -141,12 +219,15 @@
               Dejar actuar a la Fuerza
             </button>
 
+
             <div
               id="ruleta-resultado"
               class="ruleta-resultado"
               aria-live="polite"
             >
+
               <div class="ruleta-estado">
+
                 <p class="ruleta-resultado-etiqueta">
                   La rueda está lista
                 </p>
@@ -154,7 +235,9 @@
                 <h3>
                   Girá para descubrir una reflexión
                 </h3>
+
               </div>
+
             </div>
 
           </div>
